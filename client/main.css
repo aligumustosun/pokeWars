@@ -2,3 +2,6 @@ body {
   padding: 10px;
   font-family: sans-serif;
 }
+.ui.card {
+   margin: 0 0 !important;
+}
