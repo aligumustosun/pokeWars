@@ -98,7 +98,7 @@ makeFighterCard=(fighter,fighterNo)=>{
             { fighterCard1 ? fighterCard1 : null }
            { fighterCard1 && fighterCard2 ? <Image onClick={()=>{
              this.setState({fighter1HpPercent:100, fighter2HpPercent:100, fighter1Hp: fighter1.hp, fighter2Hp: fighter2.hp})
-           }} size={'medium'} src='./Versus.png' /> : null}
+           }} size={'small'} src='./Versus.png' /> : null}
             { fighterCard2 ? fighterCard2 : null}
           </Grid.Row>
         </Grid>
